@@ -68,10 +68,10 @@ function Layout() {
                                     <Link to="/about" className={` nav-link ${(location.pathname === `/about`) ? `fw-bold active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>ABOUT</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/contact" className={` nav-link ${(location.pathname === `/contact`) ? `fw-bold active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>CONTACT</Link>
+                                    <Link to="/project" className={` nav-link ${(location.pathname === `/project`) ? `fw-bold active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>PROJECT</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/project" className={` nav-link ${(location.pathname === `/project`) ? `fw-bold active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>PROJECT</Link>
+                                    <Link to="/contact" className={` nav-link ${(location.pathname === `/contact`) ? `fw-bold active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>CONTACT</Link>
                                 </li>
                                 {/* <li className="nav-item">
                                     <Link to="/experience" className={` nav-link ${(location.pathname === `/experience`) ? `fw-bold  active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>EXPERIENCE</Link>
