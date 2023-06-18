@@ -4,20 +4,35 @@ import { BiArrowToBottom } from "react-icons/bi";
 import { LuContact } from "react-icons/lu";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
-const PDF_FILE_URL = 'https://webportfolio-git-main-canecaimmanuel.vercel.app//immanuel_caneca_cv.pdf'
+const PDF_FILE_URL = 'https://webportfolio-git-main-canecaimmanuel.vercel.app/immanuel_caneca_cv.pdf';
+// const PDF_FILE_URL = 'http://localhost:5173/immanuel_caneca_cv.pdf'; //for my checking
 
 function Home() {
+    //  //Other option if any case
+
+    // const downloadFileAtUrl = (url) => {
+    //     fetch(url)
+    //         .then((response) => response.blob())
+    //         .then((blob) => {
+    //             const blobURL = window.URL.createObjectURL(new Blob([blob]))
+    //             const fileName = url.split("/").pop();
+    //             const aTag = document.createElement('a');
+    //             aTag.href = blobURL;
+    //             aTag.setAttribute("download", fileName);
+    //             document.body.appendChild(aTag);
+    //             aTag.click();
+    //             aTag.remove();
+    //         })
+    // };
+
     const downloadFileAtUrl = (url) => {
-        fetch(url).then(response => response.blob()).then(blob => {
-            const blobURL = window.URL.createObjectURL(new Blob([blob]))
-            const fileName = url.split("/").pop();
-            const aTag = document.createElement('a');
-            aTag.href = blobURL;
-            aTag.setAttribute("download", fileName);
-            document.body.appendChild(aTag);
-            aTag.click();
-            aTag.remove();
-        })
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = url;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
     };
 
     return (
