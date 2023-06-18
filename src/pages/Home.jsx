@@ -4,7 +4,7 @@ import { BiArrowToBottom } from "react-icons/bi";
 import { LuContact } from "react-icons/lu";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
-const PDF_FILE_URL = 'http://localhost:5173/Immanuel_Cañeca_CV.pdf'
+const PDF_FILE_URL = 'https://webportfolio-git-main-canecaimmanuel.vercel.app//Immanuel_Cañeca_CV.pdf'
 
 function Home() {
     const downloadFileAtUrl = (url) => {
