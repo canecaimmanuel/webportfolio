@@ -66,7 +66,7 @@ function Home() {
             <div className="container mt-5">
                 <div className="row proj-grid bg-dark">
                     <a href='http://localhost:5173/project' className="proj-img col-12">
-                        <img className='zoom img-fluid' src={'hp1.png'} alt="" />
+                        <img className='zoom img-fluid my-auto' src={'hp1.png'} alt="" />
                         <div className="content">
                             <p className="bg-secondary px-2 fs-5 rounded">JPI Website</p>
                         </div>

@@ -261,9 +261,9 @@ footer {
     color: black;
   }
 
-@media screen and (max-width:439px) {
+@media screen and (max-width:452px) {
     .proj-grid {
-        height: 13rem !important;
+        height: 16rem !important;
     }
 
     .proj-img {
@@ -273,7 +273,7 @@ footer {
     }
     
     .num1 {
-        top: 24rem;
+        top: 21rem;
     }
 }
 
@@ -330,7 +330,7 @@ footer {
     }
 
     .proj-img {
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
     
     .num1 {
