@@ -70,7 +70,7 @@ function Home() {
                         <div className="content">
                             <p className="bg-secondary px-2 fs-5 rounded">JPI Website</p>
                         </div>
-                        <p className="fs-5 content-num">01</p>
+                        <p className="num1 fs-5 content-num">01</p>
                     </a>
                 </div>
             </div>

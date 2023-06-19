@@ -77,7 +77,7 @@ function Layout() {
                                     <Link to="/experience" className={` nav-link ${(location.pathname === `/experience`) ? `fw-bold  active` : ``} ${theme ? 'text-light' : 'text-muted'}`}>EXPERIENCE</Link>
                                 </li> */}
                             </ul>
-                            <ul className="navbar-nav ms-auto">
+                            <ul className="nav_icons ms-auto">
                                 <li className="nav-item-icons">
                                     <a href="https://www.facebook.com/immancaneca" className={`fs-4 ${theme ? 'text-white' : 'text-dark'}`}><FaFacebook /></a>
                                 </li>
