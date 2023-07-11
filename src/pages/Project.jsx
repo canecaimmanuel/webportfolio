@@ -30,7 +30,7 @@ function Project() {
                     <p className="fs-5 content-num">03</p>
                 </div>
             </a>
-            <a href="" className="grid col-md-6 mt-4">
+            <a href="https://github.com/canecaimmanuel/miniproject2" className="grid col-md-6 mt-4">
                 <div className="img-wrapper bg-dark">
                     <img src={'proj4.png'} alt="" className="zoom" />
                     <p className="bg-secondary px-3 py-1 fs-5 rounded content">Code Combat</p>
