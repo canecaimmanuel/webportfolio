@@ -5,6 +5,7 @@ import { LuContact } from "react-icons/lu";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 const PDF_FILE_URL = 'https://webportfolio-git-main-canecaimmanuel.vercel.app/immanuel_cañeca_resume.pdf';
+
 // const PDF_FILE_URL = 'http://localhost:5173/immanuel_cañeca_resume.pdf'; //for my checking
 
 function Home() {
@@ -65,7 +66,7 @@ function Home() {
 
             <div className="container mt-5">
                 <div className="row proj-grid bg-dark">
-                    <a href='http://localhost:5173/project' className="proj-img col-12">
+                    <a href='https://jpiwebsite-3pr2si4sh-canecaimmanuel.vercel.app/' className="proj-img col-12">
                         <img className='zoom img-fluid my-auto' src={'hp1.png'} alt="" />
                         <div className="content">
                             <p className="bg-secondary px-2 fs-5 rounded">JPI Website</p>
@@ -76,14 +77,14 @@ function Home() {
             </div>
 
             <div className="row">
-                <a href="" className="grid col-md-6 mt-4">
+                <a href="https://webportfolio-wheat.vercel.app/project" className="grid col-md-6 mt-4">
                     <div className="img-wrapper bg-dark">
                         <img src={"proj1.png"} alt="" className="zoom" />
                         <p className="bg-secondary px-2 fs-5 rounded content">B.Shop</p>
                         <p className="fs-5 content-num">02</p>
                     </div>
                 </a>
-                <a href="" className="grid col-md-6 mt-4">
+                <a href="https://webportfolio-wheat.vercel.app/project" className="grid col-md-6 mt-4">
                     <div className="img-wrapper bg-dark">
                         <img src={'proj3.png'} alt="" className="zoom" />
                         <p className="bg-secondary px-2 fs-5 rounded content">Kopitime</p>
