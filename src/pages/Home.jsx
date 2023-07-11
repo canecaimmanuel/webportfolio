@@ -4,8 +4,8 @@ import { BiArrowToBottom } from "react-icons/bi";
 import { LuContact } from "react-icons/lu";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
-const PDF_FILE_URL = 'https://webportfolio-git-main-canecaimmanuel.vercel.app/Cañeca_Immanuel_Cv.pdf';
-// const PDF_FILE_URL = 'http://localhost:5173/immanuel_caneca_cv.pdf'; //for my checking
+const PDF_FILE_URL = 'https://webportfolio-git-main-canecaimmanuel.vercel.app/immanuel_cañeca_resume.pdf';
+// const PDF_FILE_URL = 'http://localhost:5173/immanuel_cañeca_resume.pdf'; //for my checking
 
 function Home() {
     const downloadFileAtUrl = (url) => {
