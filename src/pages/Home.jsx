@@ -77,14 +77,14 @@ function Home() {
             </div>
 
             <div className="row">
-                <a href="https://webportfolio-wheat.vercel.app/project" className="grid col-md-6 mt-4">
+                <a href="https://webportfolio-git-main-canecaimmanuel.vercel.app/project" className="grid col-md-6 mt-4">
                     <div className="img-wrapper bg-dark">
                         <img src={"proj1.png"} alt="" className="zoom" />
                         <p className="bg-secondary px-2 fs-5 rounded content">B.Shop</p>
                         <p className="fs-5 content-num">02</p>
                     </div>
                 </a>
-                <a href="https://webportfolio-wheat.vercel.app/project" className="grid col-md-6 mt-4">
+                <a href="https://webportfolio-git-main-canecaimmanuel.vercel.app/project" className="grid col-md-6 mt-4">
                     <div className="img-wrapper bg-dark">
                         <img src={'proj3.png'} alt="" className="zoom" />
                         <p className="bg-secondary px-2 fs-5 rounded content">Kopitime</p>
