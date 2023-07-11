@@ -9,7 +9,7 @@ function Project() {
                 </div>
             </div>
 
-            <a href="" className="grid col-md-6 mt-4">
+            <a href="https://jpiwebsite-3pr2si4sh-canecaimmanuel.vercel.app/" className="grid col-md-6 mt-4">
                 <div className="img-wrapper bg-dark">
                     <img src={'proj2.png'} alt="" className="zoom" />
                     <p className="bg-secondary px-3 py-1 fs-5 rounded content">JPI Website</p>
