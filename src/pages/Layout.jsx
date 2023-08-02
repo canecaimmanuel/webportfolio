@@ -3,7 +3,7 @@ import { Outlet, Link, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "../css/index.css";
 import ScrollToTopButton from "./ScrollToTopButton";
-import { BsFillMoonFill } from "react-icons/bs";
+import { BsFillMoonFill, BsWhatsapp } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 function Layout() {
@@ -109,6 +109,10 @@ function Layout() {
                         &copy; || 2023, All Rights Reserved.
                     </div>
                 </footer>
+                <a href="https://wa.me/639271426541"
+                    class="float" target="_blank">
+                    <BsWhatsapp />
+                </a>
                 <ScrollToTopButton />
             </div>
         </div>
