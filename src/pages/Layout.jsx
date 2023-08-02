@@ -9,11 +9,15 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 function Layout() {
 
     const location = useLocation();
+    const storedDarkMode = localStorage.getItem('darkMode');
 
-    const [theme, setTheme] = useState(false);
+    const [theme, setTheme] = useState(storedDarkMode === 'true');
 
     function handleTheme() {
-        setTheme(!theme);
+        const newDarkMode = !theme;
+        setTheme(newDarkMode);
+        //Save the choice mode to localstorage
+        localStorage.setItem('darkMode', newDarkMode);
     }
 
 
