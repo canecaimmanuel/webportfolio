@@ -47,7 +47,7 @@ function Layout() {
                     {
                         location.pathname === '/project' ?
                             (
-                                <title>Imman | Project</title>
+                                <title>Imman | Projects</title>
                             ) : ""
                     }
                     {/* {

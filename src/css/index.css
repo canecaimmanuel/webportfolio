@@ -1,5 +1,6 @@
 #body {
     padding-top: 5rem;
+    overflow-x: hidden;
 }
 
 .nav_icons {

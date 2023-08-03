@@ -37,6 +37,20 @@ function Project() {
                     <p className="fs-5 content-num">04</p>
                 </div>
             </a>
+            <a href="https://github.com/canecaimmanuel/mi" className="grid col-md-6 mt-4">
+                <div className="img-wrapper bg-dark">
+                    <img src={'proj5.png'} alt="" className="zoom" />
+                    <p className="bg-secondary px-3 py-1 fs-5 rounded content">Linkr</p>
+                    <p className="fs-5 content-num">05</p>
+                </div>
+            </a>
+            <a href="https://music-player-two-dun.vercel.app/" className="grid col-md-6 mt-4">
+                <div className="img-wrapper bg-dark">
+                    <img src={'proj6.png'} alt="" className="zoom" />
+                    <p className="bg-secondary px-3 py-1 fs-5 rounded content">Music Player</p>
+                    <p className="fs-5 content-num">06</p>
+                </div>
+            </a>
 
 
         </div>
