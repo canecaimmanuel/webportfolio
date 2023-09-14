@@ -1,0 +1,32 @@
+.modalBackground {
+    top: -100px;
+    left: 40px;
+    position: absolute;
+}
+
+.modalContainer {
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modalImg {
+    width: 80vw;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.closeBtn {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    color: rgba(227, 27, 100, 0.74);
+    font-size: 25px;
+}
+
+@media screen and (max-width:600px) {
+    .modalBackground {
+        display: none;
+    }
+}

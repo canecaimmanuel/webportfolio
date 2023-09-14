@@ -1,6 +1,11 @@
-import React from 'react';
+import { useState } from 'react';
+import Modal from './Modal';
+
 
 function About() {
+
+    const [openModal, setOpenModal] = useState(false)
+
     return (
         <div className='row'>
             <div className="page ">
@@ -20,7 +25,9 @@ function About() {
                         <h3 className='fw-bold text-secondary'>Certification</h3>
                     </div>
                     <div className="card-body">
-                        <p className='text-muted'>I am a batch WD63 in KodeGo Boothcamp under Web Development Program.</p>
+                        <button className='openModalBtn' onClick={() => { setOpenModal(true); }}><img className='img-fluid' src={'kodego_certificate.png'} /></button>
+                        {openModal && <Modal closeModal={setOpenModal} />}
+                        <p className='text-muted'>I am a batch WD63 in KodeGo Bootcamp under Fullstack Web Development Program.</p>
                     </div>
                 </div>
             </div>
