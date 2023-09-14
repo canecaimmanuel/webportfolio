@@ -27,7 +27,7 @@ function About() {
                     <div className="card-body">
                         <button className='openModalBtn' onClick={() => { setOpenModal(true); }}><img className='img-fluid' src={'kodego_certificate.png'} /></button>
                         {openModal && <Modal closeModal={setOpenModal} />}
-                        <p className='text-muted'>I am a batch WD63 in KodeGo Bootcamp under Fullstack Web Development Program.</p>
+                        <p className='text-muted mt-3'>I am a batch WD63 in KodeGo Bootcamp under Fullstack Web Development Program.</p>
                     </div>
                 </div>
             </div>
